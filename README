@@ -1,0 +1,1 @@
+Paxos implemented in TypeScript where peers communicate over WebRTC. The Signaling Server files are signaling_server folder and it is implemented in NodeJS.

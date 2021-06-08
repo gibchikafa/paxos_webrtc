@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paxos on WebRTC</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+</head>
+
+<body>
+  <!-- Main container -->
+  <div class="container">
+    <p id="total_peers_in_cluster">0</p>
+    <button class="button is-primary" id="join_cluster_btn">Join Cluster</button>
+    <br><br>
+    <input type="text" class="input" id="text_input"><br><br>
+    <button class="button is-success" id="send_message">Send Message</button>
+    <p id="messages"></p>
+  </div>
+  <script src="/bundle.js"></script>
+</body>
+
+</html>
